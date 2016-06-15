@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Evaluacion Final 12</string>
+
+    <!-- facebook id -->
+    <string name="facebook_app_id">989964904443898</string>
+
+    <!-- id AdMob -->
+    <string name="publicidad_id">ca-app-pub-9613201847990186/6918360953</string>
+
+    <string name="fb_error">Se ha producido un error en el Logeo</string>
+    <string name="fb_cancel">Se ha cancelado la operacion</string>
+
+    <string name="welcome">Permitenos conocerte!!\nPor favor presiona el boton para ingresar.</string>
+    <string name="hello_txt">Hola!!... tus datos de Facebook son:</string>
+</resources>

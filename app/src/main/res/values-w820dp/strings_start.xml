@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_dialog_title">Upss... no hay conexión</string>
+    <string name="start_dialog_message">Por favor asegúrate de tener activa tu conexión WIFI y/o servicio de datos de tu operador celular</string>
+    <string name="start_dialog_positive_button">Ir a configuración</string>
+    <string name="start_dialog_negative_button">Cerrar</string>
+</resources>

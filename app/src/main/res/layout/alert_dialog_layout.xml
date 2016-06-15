@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:divider="@drawable/divider_v"
+    android:dividerPadding="10dp"
+    android:showDividers="middle"
+    android:background="@drawable/shape_dialog_start">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+
+        <ImageView
+            android:id="@+id/imgAlert"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:src="@mipmap/ic_signal_wifi_off_white_24dp"/>
+
+        <com.randbapps.divecenter.CustomTextNormal
+            android:id="@+id/titleAlert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="30dp"
+            android:textColor="#FFFFFF"
+            android:text="@string/start_dialog_title"/>
+    </LinearLayout>
+
+
+
+    <com.randbapps.divecenter.CustomTextNormal
+        android:id="@+id/bodyAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:text="@string/start_dialog_message"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:divider="@drawable/divider_h"
+        android:dividerPadding="12dp"
+        android:showDividers="middle">
+
+        <com.randbapps.divecenter.CustomTextNormal
+            android:id="@+id/cerrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".40"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"
+            android:text="@string/start_dialog_negative_button"/>
+        <com.randbapps.divecenter.CustomTextNormal
+            android:id="@+id/ir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".60"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"
+            android:text="@string/start_dialog_positive_button"
+            android:onClick="cancel"/>
+    </LinearLayout>
+
+
+</LinearLayout>
